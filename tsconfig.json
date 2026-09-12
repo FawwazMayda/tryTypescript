@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "target": "ES2021",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "strict": false,
+    "outDir": "dist"
+  },
+  "include": ["src/**/*.ts", "taking-whole-cpu.ts", "built_in_thread.ts"]
+}
